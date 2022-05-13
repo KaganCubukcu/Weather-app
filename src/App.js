@@ -13,7 +13,7 @@ function App() {
   const [data, setData] = useState();
   const [location, setLocation] = useState("Ankara");
   const API_KEY = process.env.REACT_APP_API_KEY;
-  const url = `http://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${location}&aqi=no&alerts=no&days=7&lang=tr`;
+  const url = `https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${location}&aqi=no&alerts=no&days=7&lang=tr`;
 
   const momentAll = {
     momentNow: moment().format("Do MMMM YYYY"),
