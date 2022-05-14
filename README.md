@@ -18,7 +18,7 @@ Patika'nın React konusundaki 3.ödevi
 - Anlık hava sıcaklığı, hissedilen, rüzgar ve görüş alanı değerlerinin bulunması
 - 3 günlük hava durumu değerleri
 - Gündüz ve gece olmasına ve hava duruma göre background'un değişmesi
-- Dropdown ile arama yada Türkiye'de bulunan bir ilin seçilmesi
+- Dropdown ile arama ya da Türkiye'de bulunan bir ilin seçilmesi
 
 # Kullanılan Kütüphaneler
 

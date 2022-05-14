@@ -129,4 +129,7 @@ code {
     display: flex;
     margin-bottom: 10px;
   }
+  .navbar {
+    font-size: 10px;
+  }
 }
