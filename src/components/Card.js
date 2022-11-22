@@ -13,6 +13,7 @@ const Card = () => {
             src={
               data ? `${data.forecast.forecastday[0].day.condition.icon}` : null
             }
+            alt="condition_icon"
           ></img>
         </section>
         <section className="card-temp">
@@ -34,6 +35,7 @@ const Card = () => {
             src={
               data ? `${data.forecast.forecastday[1].day.condition.icon}` : null
             }
+            alt="condition_icon"
           ></img>
         </section>
         <section className="card-temp">
@@ -55,6 +57,7 @@ const Card = () => {
             src={
               data ? `${data.forecast.forecastday[2].day.condition.icon}` : null
             }
+            alt="condition_icon"
           ></img>
         </section>
         <section className="card-temp">
