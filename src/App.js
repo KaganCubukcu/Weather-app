@@ -37,7 +37,7 @@ function App() {
   const time = momentAll.momentHour;
 
   const dayCycle = `${
-    (time < "18:00" && "Morning") || (time > "18:01" && "Morning") || "None"
+    (time < "17:59" && "Morning") || (time > "18:00" && "Evening") || "None"
   }`;
 
   const coditionStyleDay = {
